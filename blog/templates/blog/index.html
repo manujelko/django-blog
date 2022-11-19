@@ -20,7 +20,9 @@ My blog
 </section>
 <section id="latest-posts">
     <ul>
+        {% for post in posts %}
         {% include 'blog/includes/post.html' %}
+        {% endfor %}
     </ul>
 </section>
 
